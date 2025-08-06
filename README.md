@@ -18,3 +18,4 @@ plot_contour(
     cmap="viridis"
 )
 ```
+![Example plot showing random data scattered over Texas, Oklahoma, and Arkansas](https://github.com/skylerreid/Assets/blob/main/Figure_1.jpeg)
