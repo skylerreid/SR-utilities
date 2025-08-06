@@ -4,7 +4,7 @@ To find the correct skipto value for your data, open the CSV a spreadsheet progr
 
 Example code to plot the data and lines around the mean can be seen in plot_waveforms_log.jl. 
 
-plot_contour.py: plots an interpolated contour with or without the underlying scatter points. can be called using this example:
+plot_contour.py: plots an interpolated contour with or without the underlying scatter points. can be called using this example, and generates the plot below:
 ```python
 plot_contour(
     table=combined_df,
