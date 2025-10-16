@@ -1,7 +1,8 @@
 import ctypes
 import numpy as np
 
-dll = ctypes.CDLL("C:\\Users\\skyle\\OneDrive - Montana State University\\Desktop\\dev\\rolling_avg\\target\\x86_64-pc-windows-gnu\\release\\rolling_avg.dll")
+dll = ctypes.CDLL(
+    "C:\\Users\\skyle\\OneDrive - Montana State University\\Desktop\\dev\\rolling_avg\\target\\x86_64-pc-windows-gnu\\release\\rolling_avg.dll")
 
 rolling_average = dll.rolling_average
 rolling_average.argtypes = [
